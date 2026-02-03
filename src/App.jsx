@@ -1,6 +1,6 @@
 import { useState } from "react";
 import lovesvg from "./assets/All You Need Is Love SVG Cut File.svg";
-import lovesvg2 from "./assets/Love In The Air SVG Cut File.svg";
+import lovesvg2 from "./assets/All You Need Is Love SVG Cut File.gif";
 
 export default function Page() {
   const [noCount, setNoCount] = useState(0);
@@ -14,17 +14,17 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
-      "Are you absolutely certain?",
-      "This could be a mistake!",
-      "Have a heart!",
-      "Don't be so cold!",
+      "Are you sure my Rasmalai?",
+      "Really sure Kuchupuchu?",
+      "Think again Maalkin!",
+      "Last chance Gulaab Jamun!",
+      "Surely not Billu Badmosh?",
+      "You might regret this madam ji!",
+      "Give it another thought my love!",
+      "Are you absolutely certain cutie?",
+      "This could be a mistake kaju katli!",
+      "Have a heart jaahil aurat!",
+      "Don't be so cold bandariya!",
       "Change of heart?",
       "Wouldn't you reconsider?",
       "Is that your final answer?",
@@ -60,9 +60,10 @@ export default function Page() {
             className="h-[230px] rounded-lg shadow-lg"
             src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.webp"
           />
-          <h1 className="text-4xl md:text-6xl my-4 text-center">
-            Will you be my Valentine?
-          </h1>
+
+          <h1 className="font-display text-5xl leading-tight">
+            Hey Angel, Will you be my Valentine?
+          </h1  >
           <div className="flex flex-wrap justify-center gap-2 items-center">
             <button
               className={`bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg mr-4`}
