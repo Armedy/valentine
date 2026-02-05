@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import App from './App.jsx'
-import Slideshow from './pages/Slideshow.jsx' // ← make sure this file exists
+import Slideshow from './pages/slideshow.jsx' // ← make sure this file exists
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
